@@ -1,0 +1,48 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.venv/
+venv/
+env/
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+
+# Lecture2PDF resumable caches and generated assets
+.lecture2pdf-cache/
+e2e_cache/
+*_assets/
+notes_assets/
+vocabulary_notes_assets/
+benchmark_outputs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.tmp
+
+# Local media and generated documents
+downloads/
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+*.pdf
+e2e_*.pdf
+should_not_run.pdf
+e2e_sample.mp4
+
+# Local logs and editor files
+*.log
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
